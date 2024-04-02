@@ -244,6 +244,7 @@ type TypeIsNumber<T> = T extends number ? 'yes' : 'no'//если дженери�
 
 
 type Typt1 = TypeIsNumber<number>
+
 type Typt2 = TypeIsNumber<string>
 
 

@@ -240,7 +240,8 @@ type Return = ReturnType<TypeGetname>
 //--------------------Расширенные типы-------------------------
 
 
-type TypeIsNumber<T> = T extends number ? 'yes' : 'no'//если дженерик равен числу то это yes 
+type TypeIsNumber<T> = T extends number ? 'yes' : 'no'//если дженерик равен числу то это yes 123
+
 
 type Typt1 = TypeIsNumber<number>
 type Typt2 = TypeIsNumber<string>
